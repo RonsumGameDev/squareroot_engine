@@ -13,6 +13,6 @@ This is a pure Python implementation of the classic **long division method** for
 ## Usage
 
 ```python
-from sqrt_engine.core import compute_sqrt
+from sqrt_engine import compute_sqrt
 
 print(compute_sqrt(69, places=20, debug=True))

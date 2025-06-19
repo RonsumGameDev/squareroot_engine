@@ -3,6 +3,7 @@
 This is a pure Python implementation of the classic **long division method** for calculating square roots — precise, decimal-based, and educational.
 
 > 🔥 Authored by [Saksham "Ronsum" Dwivedi](https://github.com/RonsumGameDev)
+> 🏴 Released under [The Unlicense](https://unlicense.org)
 
 ## Features
 - No floating point rounding errors
@@ -15,4 +16,11 @@ This is a pure Python implementation of the classic **long division method** for
 ```python
 from sqrt_engine import sqroot
 
-print(sqroot(69, places=20, debug=True))
+# Basic usage
+print(sqroot(69))
+
+# With custom decimal places
+print(sqroot(2, places=25))
+
+# With debug steps printed
+print(sqroot(169, places=15, debug=True))
